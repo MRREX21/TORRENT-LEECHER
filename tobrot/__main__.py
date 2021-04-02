@@ -12,26 +12,26 @@ from pyrogram import Client, filters
 from pyrogram.handlers import CallbackQueryHandler, MessageHandler
 
 from tobrot import (
-    API_HASH,
-    APP_ID,
-    AUTH_CHANNEL,
-    CANCEL_COMMAND_G,
-    CLEAR_THUMBNAIL,
+    API_HASH,0efadaaa11af67fa9fb6344cf0195e21
+    APP_ID,2052406
+    AUTH_CHANNEL,-406036817
+    CANCEL_COMMAND_G,/CancelHexLeech
+    CLEAR_THUMBNAIL,/ClearThumbnail
     CLONE_COMMAND_G,
     DOWNLOAD_LOCATION,
     GET_SIZE_G,
     GLEECH_COMMAND,
-    LEECH_COMMAND,
+    LEECH_COMMAND,/LeechHexBotz
     LOG_COMMAND,
     LOGGER,
-    PYTDL_COMMAND_G,
+    PYTDL_COMMAND_G,/PYTDLHEXBOTZ
     RENEWME_COMMAND,
-    SAVE_THUMBNAIL,
-    STATUS_COMMAND,
+    SAVE_THUMBNAIL,/Savethumbnail
+    STATUS_COMMAND,/SeeStatus
     TELEGRAM_LEECH_COMMAND_G,
     TG_BOT_TOKEN,
     UPLOAD_COMMAND,
-    YTDL_COMMAND,
+    YTDL_COMMAND,/YtdlBotz
 )
 from tobrot.helper_funcs.download import down_load_media_f
 from tobrot.plugins.call_back_button_handler import button
